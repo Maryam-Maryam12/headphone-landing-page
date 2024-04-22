@@ -1,0 +1,76 @@
+        body {
+            background-color: #EF624F;
+            color: #fff;
+            font-family: 'League Spartan', sans-serif;
+            transition: background-color 0.5s ease;
+        }
+
+        .navbar {
+            background-color: #EF624F;
+             transition: background-color 0.5s ease;
+        }
+
+        .navbar-brand {
+            color: #fff;
+        }
+
+        .navbar-nav {
+            margin-left: auto;
+        }
+
+        .navbar-nav a {
+            font-size: 20px;
+            color: black;
+            font-weight: 700;
+            margin-right: 15px;
+        }
+        .navbar-nav a:hover{
+            color:white;
+        }
+
+        .content-container {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh; /* Adjusted for full-height content */
+        }
+        .content-container .color{
+            font-family: 'Righteous', cursive;
+            color: black;
+        }
+        span{
+            color: white;
+        }
+
+        .content-image {
+            max-width: 100%;
+            height: auto;
+        }
+
+        .content-heading {
+            font-size: 36px;
+            margin-bottom: 20px;
+        }
+
+        .content-paragraph {
+            font-size: 18px;
+            margin-bottom: 20px;
+        }
+
+        .small-image-box {
+            max-width: 100%;
+            height: auto;
+            margin-bottom: 20px;
+        }
+
+        .img-div {
+            text-align: center;
+        }
+         .small-image {
+            transition: transform 0.3s ease; 
+            cursor: pointer;
+        }
+
+        .small-image:hover {
+            transform: scale(1.1);
+        }
